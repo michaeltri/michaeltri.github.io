@@ -1,15 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head>
-	<title>Hello Michael</title>
-	
-</head>
-
-<body>
-<h1 id="hello_michael">Hello Michael</h1>
-
-</body>
-</html>
+---
+layout: default
+title: Michael Tritschler
+---
+Blog Posts
+==========
+<div id="home">
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>  
+</div>
+  
