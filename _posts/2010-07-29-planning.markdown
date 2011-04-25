@@ -1,0 +1,9 @@
+---
+layout: post
+title: Planning
+---
+# {{ page.title }}
+
+In preparing for battle I have always found that plans are useless, but planning is indispensable.
+
+_Dwight D. Eisenhower_
