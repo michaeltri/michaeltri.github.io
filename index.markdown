@@ -2,6 +2,12 @@
 layout: default
 title: Michael Tritschler
 ---
+<div id="post">
+  {{ site.posts.first.content}}
+</div>
+
+<hr />
+
 <div id="home">
   <ul class="posts">
     {% for post in site.posts %}
