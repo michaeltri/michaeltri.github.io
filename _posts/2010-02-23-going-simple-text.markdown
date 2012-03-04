@@ -4,8 +4,6 @@ title: Going SimpleText
 ---
 # {{ page.title }}
 
-![SimpleText.png](/img/SimpleText.png)
-
 I'm moving my tasks and notes to [SimpleText][]. 
 
 A Mac desktop client keeps a folder with text documents in sync with the SimpleText web service.
@@ -16,6 +14,8 @@ Once the files are in the cloud I can access and modify them with the web applic
 Right now there is no sync client for Windows and Linux. But I anyway keep the SimpleText folder within my [Dropbox][]. So all files are automatically copied to all my systems.
 
 [Dropbox]:http://www.dropbox.com
+
+![SimpleText.png](/img/SimpleText.png)
 
 All files are pure text. I can search them with desktop search on Windows, Spotlight on the Mac or with `grep` on Linux.
 
