@@ -2,7 +2,6 @@
 layout: post
 title: Going SimpleText
 ---
-# {{ page.title }}
 
 I'm moving my tasks and notes to [SimpleText][]. 
 
@@ -15,7 +14,7 @@ Right now there is no sync client for Windows and Linux. But I anyway keep the S
 
 [Dropbox]:http://www.dropbox.com
 
-![SimpleText.png](/img/SimpleText.png)
+![SimpleText.png](/images/SimpleText.png)
 
 All files are pure text. I can search them with desktop search on Windows, Spotlight on the Mac or with `grep` on Linux.
 

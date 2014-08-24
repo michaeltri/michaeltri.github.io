@@ -10,7 +10,7 @@ Sometimes I have time to read articles during the day but this usually happens i
 
 I do this by using [Pinboard][]. Pinboard is bookmarking website with a clean and simplistic design.
 
-![Pinboard.png](/img/Pinboard.png)  
+![Pinboard.png](/images/Pinboard.png)  
 
 The hidden gem of Pinboard is the auto-import feature. Items from Google Reader, Twitter or Instapaper can be automatically saved as bookmarks.
 

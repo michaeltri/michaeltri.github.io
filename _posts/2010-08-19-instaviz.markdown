@@ -6,4 +6,4 @@ title: Instaviz
 
 I'm a [Graphviz](http://www.graphviz.org/) fan. It's like writing documents in plain text. You can focus on the content instead of thinking about the layout. [Instaviz](http://instaviz.com/) is an iPhone app that uses the Graphviz engine. You just have to sketch some shapes and connect them and your done. Ideal for brainstorming. Dropbox sync would be nice. But apart from that much better than the iPhone mindmap apps I've tried so far.  
 
-![Instaviz.png](/img/Instaviz.png)
+![Instaviz.png](/images/Instaviz.png)
