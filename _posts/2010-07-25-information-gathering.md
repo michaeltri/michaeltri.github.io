@@ -2,7 +2,6 @@
 layout: post
 title: Information gathering
 ---
-# {{ page.title }}
 
 Google Reader and Twitter are the two sources of information I check every day. I scan through all the news items and star interesting articles in Google Reader or mark them as favorites with my Twitter client.
 

@@ -2,7 +2,6 @@
 layout: post
 title: Geek poetry
 ---
-# {{ page.title }}
 
 The time will come when I also have a web site that returns random quotes with the HTTP header. I wonder why nobody ever had the idea to use this place for extremely targeted developer ads ...
 
