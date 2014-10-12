@@ -4,9 +4,9 @@ title: Theme Setup
 modified: 2014-07-31T13:23:02.362000-04:00
 excerpt: "Instructions on how to install and customize the Jekyll theme Minimal Mistakes."
 image:
-  feature: texture-feature-02.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
+  feature: sample-image-3.jpg
+  credit: WeGraphics
+  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
 <section id="table-of-contents" class="toc">
@@ -132,9 +132,9 @@ To set what links appear in the top navigation edit `_data/navigation.yml`. Use 
 
 ---
 
-## Adding New Content
+## Adding New Content with Octopress
 
-Install the [Octopress](https://github.com/octopress/octopress) gem if it isn't already.
+While completely optional, I've included Octopress and some starter templates to automate the creation of new posts and pages. To take advantage of it start by installing the [Octopress](https://github.com/octopress/octopress) gem if it isn't already.
 
 {% highlight bash %}
 $ gem install octopress --pre
