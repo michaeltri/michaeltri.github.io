@@ -3,15 +3,15 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Michael Tritschler
-tagline:          Pages
+title:            MT
+tagline:          michael tritschler
 url:              http://michaeltritschler.de
-paginate:         1
+paginate:         3
 baseurl:          /
 author:
   name:           Michael Tritschler
   url:            https://twitter.com/michaeltri
-  email:          -
+  email:          mt@mail.com
 
 # Custom vars
 version:          1.0.0
