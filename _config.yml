@@ -1,57 +1,19 @@
-# Site wide configuration
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
 
+# Setup
 title:            Michael Tritschler
-locale:           en_US
-url:              http://localhost:4000
+tagline:          Pages
+url:              http://michaeltritschler.de
+paginate:         1
+baseurl:          /
+author:
+  name:           Michael Tritschler
+  url:            https://twitter.com/michaeltri
+  email:          -
 
-
-# Jekyll configuration
-
-permalink:   /:categories/:title/
-markdown:    kramdown
-highlighter: pygments
-sass:
-  sass_dir: _sass
-  style: compressed
-gems:
-  - jekyll-sitemap
-
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
-
-
-# Site owner
-owner:
-  name: Michael Tritschler
-  avatar: about_bw.jpg
-  bio: 
-  email: 
-  disqus-shortname: 
-  twitter: michaeltri
-  facebook: #username
-  google:
-    plus: #username
-    analytics: 
-    verify: 
-    ad-client: 
-    ad-slot: 
-  bing-verify: 
-  github: michaeltri
-  stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: michaeltritschler
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+# Custom vars
+version:          1.0.0
+github:
+  repo:           https://github.com/michaeltri
