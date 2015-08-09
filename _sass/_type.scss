@@ -4,7 +4,7 @@
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1.25;
   color: #313131;
   text-rendering: optimizeLegibility;
@@ -30,8 +30,12 @@ h4, h5, h6 {
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+  padding-right: 0;
+  vertical-align: baseline;
 }
 
 strong {

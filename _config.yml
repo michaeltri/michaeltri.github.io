@@ -6,7 +6,7 @@ relative_permalinks: true
 
 # Setup
 title:               MT
-tagline:             michael tritschler
+tagline:             by michael tritschler
 url:                 http://michaeltritschler.de
 paginate:            3
 baseurl:             ""
