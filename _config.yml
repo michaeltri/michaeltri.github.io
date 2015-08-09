@@ -1,19 +1,30 @@
 # Permalinks
-permalink:        pretty
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:            MT
-tagline:          michael tritschler
-url:              http://michaeltritschler.de
-paginate:         3
-baseurl:          /
+title:               MT
+tagline:             michael tritschler
+url:                 http://michaeltritschler.de
+paginate:            3
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
 author:
   name:           Michael Tritschler
   url:            https://twitter.com/michaeltri
   email:          mt@mail.com
 
 # Custom vars
-version:          1.0.0
+version:             2.0.0
 github:
   repo:           https://github.com/michaeltri
