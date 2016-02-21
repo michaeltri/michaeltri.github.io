@@ -173,6 +173,10 @@ section {
   padding-bottom:50px;
 }
 
+section ul {
+  margin-bottom: 0px
+}
+
 small {
   font-size:11px;
 }
