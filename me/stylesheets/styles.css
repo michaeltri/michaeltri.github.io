@@ -106,6 +106,7 @@ header {
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
+  text-align: center;
 }
 
 header ul {
@@ -141,6 +142,14 @@ header ul a {
   text-align:center;
   padding-top:6px;
   height:34px;
+}
+
+.mytitle {
+  margin-bottom:5px;
+}
+
+.mypic {
+  margin-bottom: 0px;
 }
 
 header ul a:hover {
@@ -194,6 +203,7 @@ footer {
   position:fixed;
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
+  text-align:center;
 }
 
 @media print, screen and (max-width: 960px) {
