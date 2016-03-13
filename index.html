@@ -7,6 +7,12 @@
 
     <link rel="stylesheet" href="me/stylesheets/styles.css">
     <link rel="stylesheet" href="me/stylesheets/github-light.css">
+    <link rel="stylesheet" href="me/stylesheets/dc.css">
+    <style>
+      #monthly-volume-chart g.y {
+        display: none;
+      }
+    </style>
     <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
@@ -35,7 +41,7 @@
           <a href="/blog">blog</a> | <a href="/cheaters/cheaters/cheat.html">cheaters</a>
         </h5>
 
-        <h4>
+<!--         <h4>
           <a id="books" class="anchor" href="#books" aria-hidden="true"><span class="octicon octicon-link"></span></a>Books
         </h4>
 
@@ -165,7 +171,78 @@
               <small>5/5</small>
             </li>
           </ul>
-        </p>
+        </p> -->
+
+
+<!--         <div class="row">
+            <div id="yearly-bubble-chart" class="dc-chart">
+                <strong>Yearly Performance</strong> (radius: fluctuation/index ratio, color: gain/loss)
+                <a class="reset" href="javascript:yearlyBubbleChart.filterAll();dc.redrawAll();"
+                   style="display: none;">reset</a>
+
+                <div class="clearfix"></div>
+            </div>
+        </div> -->
+
+        <div class="row">
+            <div id="gain-loss-chart">
+                <strong>Category</strong>
+                <a class="reset" href="javascript:gainOrLossChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+
+                <div class="clearfix"></div>
+            </div>
+
+            <div id="day-of-week-chart">
+                <strong>Rating</strong>
+                <a class="reset" href="javascript:dayOfWeekChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+
+                <div class="clearfix"></div>
+            </div>
+
+            <div id="quarter-chart">
+                <strong>Month</strong>
+                <a class="reset" href="javascript:quarterChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+
+                <div class="clearfix"></div>
+            </div>
+
+
+<!--             <div id="fluctuation-chart">
+                <strong>Days by Fluctuation(%)</strong>
+                <span class="reset" style="display: none;">range: <span class="filter"></span></span>
+                <a class="reset" href="javascript:fluctuationChart.filterAll();dc.redrawAll();" style="display: none;">reset</a>
+
+                <div class="clearfix"></div>
+            </div> -->
+        </div>
+
+<!--         <div class="row">
+            <div id="monthly-move-chart">
+                <strong>Monthly Index Abs Move & Volume/500,000 Chart</strong>
+                <span class="reset" style="display: none;">range: <span class="filter"></span></span>
+                <a class="reset" href="javascript:moveChart.filterAll();volumeChart.filterAll();dc.redrawAll();"
+                   style="display: none;">reset</a>
+
+                <div class="clearfix"></div>
+            </div>
+        </div> -->
+
+<!--         <div class="row">
+            <div id="monthly-volume-chart">
+            </div>
+            <p class="muted pull-right" style="margin-right: 15px;">select a time range to zoom in</p>
+        </div> -->
+
+        <div class="row">
+<!--             <div>
+                <div class="dc-data-count">
+                    <span class="filter-count"></span> selected out of <span class="total-count"></span> records | <a
+                        href="javascript:dc.filterAll(); dc.renderAll();">Reset All</a>
+                </div>
+            </div> -->
+            <table class="table table-hover dc-data-table">
+            </table>
+        </div>
 
       </section>
 
@@ -182,6 +259,12 @@
     </div>
 
     <script src="me/javascripts/scale.fix.js"></script>
+
+    <script type="text/javascript" src="me/javascripts/d3.js"></script>
+    <script type="text/javascript" src="me/javascripts/crossfilter.js"></script>
+    <script type="text/javascript" src="me/javascripts/dc.js"></script>
+    <script type="text/javascript" src="me/javascripts/colorbrewer.js"></script>
+    <script type="text/javascript" src="me/javascripts/me.trics.js"></script>
 
     <script type="text/javascript">
       var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
